@@ -15,3 +15,5 @@
 ## 无重复字符的最长子串
 
 [LongestSubstringWithoutRepeatingCharacters.java](https://github.com/leaderman/jleetcode/blob/main/src/main/java/io/github/jleetcode/LongestSubstringWithoutRepeatingCharacters.java)
+
+[LongestSubstringWithoutRepeatingCharactersV2.java](https://github.com/leaderman/jleetcode/blob/main/src/main/java/io/github/jleetcode/LongestSubstringWithoutRepeatingCharactersV2.java)
