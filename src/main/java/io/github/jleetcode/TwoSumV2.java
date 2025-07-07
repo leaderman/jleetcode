@@ -18,15 +18,15 @@ public class TwoSumV2 {
         valueToIndex.put(nums[index], index);
       }
 
-      // 第一个整数的下标
+      // 被加数下标
       for (int a = 0; a < nums.length; a++) {
-        // 第二个整数
+        // 加数
         int value = target - nums[a];
 
-        // 获取第二个整数的下标
+        // 尝试获取加数的下标
         Integer b = valueToIndex.get(value);
         if (b != null && b != a) {
-          // 第二个整数的下标存在，返回两个整数的下标
+          // 加数的下标存在，返回两个整数的下标
           return new int[] {a, b};
         }
       }
